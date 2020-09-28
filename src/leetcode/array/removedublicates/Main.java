@@ -1,4 +1,4 @@
-package array.removedublicates;
+package leetcode.array.removedublicates;
 
 public class Main {
     public static void main(String[] args) {

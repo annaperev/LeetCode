@@ -1,4 +1,4 @@
-package problems.twosum;
+package leetcode.problems.twosum;
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {

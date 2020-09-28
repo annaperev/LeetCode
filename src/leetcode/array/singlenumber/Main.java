@@ -1,4 +1,4 @@
-package array.singlenumber;
+package leetcode.array.singlenumber;
 
 public class Main {
     public static void main(String[] args) {

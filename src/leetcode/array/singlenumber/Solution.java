@@ -1,6 +1,4 @@
-package array.singlenumber;
-
-import java.util.Arrays;
+package leetcode.array.singlenumber;
 
 public class Solution {
     public int singleNumber(int[] nums) {

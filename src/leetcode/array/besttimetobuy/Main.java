@@ -1,4 +1,4 @@
-package array.besttimetobuy;
+package leetcode.array.besttimetobuy;
 
 public class Main {
     public static void main(String[] args) {

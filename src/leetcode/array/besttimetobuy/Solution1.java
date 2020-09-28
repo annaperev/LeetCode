@@ -1,4 +1,4 @@
-package array.besttimetobuy;
+package leetcode.array.besttimetobuy;
 
 public class Solution1 {
     public int maxProfit(int[] prices) {

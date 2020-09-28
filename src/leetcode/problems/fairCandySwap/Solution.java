@@ -1,11 +1,23 @@
-package problems.fairCandySwap;
+package leetcode.problems.fairCandySwap;
 
 class Solution {
     public int[] fairCandySwap(int[] A, int[] B) {
-        System.out.println(calcSum(A));
-        System.out.println(calcSum(B));
+        int aSum = calcSum(A);
+        int bSum = calcSum(B);
+        int honestCandyNumber = (aSum+bSum)/2;
 
-        int [] res = {};
+        int [] res = {0,0};
+
+        for(int a:A){
+            for(int b:B){
+                if ((b-a) == honestCandyNumber-aSum){
+                    res[0]=a;
+                    res[1]=b;
+                    break;
+                }
+            }
+        }
+
         return res;
     }
 

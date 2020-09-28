@@ -1,10 +1,7 @@
-package array.containsduplicate;
+package leetcode.array.containsduplicate;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.IntStream;
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {

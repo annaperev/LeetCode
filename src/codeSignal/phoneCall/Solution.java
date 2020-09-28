@@ -1,24 +1,20 @@
 package codeSignal.phoneCall;
 
-public class Soloution {
-    int phoneCall(int min1, int min2_10, int min11, int s) {
-        int duration  = 0;
-        if (s - min1 >= 0){
-            s -= min1;
-            duration++;
-        } else return duration;
-
-        while (s - min2_10 >=0 && duration<=10){
-            s-= min2_10;
-            duration++;
+public class Solution {
+    char firstNotRepeatingCharacter(String s) {
+        for (int i=0; i < s.length(); i ++){
+            if(s.charAt(i) != '_'){
+                for (int j = i+1; j< s.length(); j++){
+                    if (s.charAt(i) == s.charAt(j)){
+                        s = s.replaceAll(String.valueOf(s.charAt(i)), "_");
+                        break;
+                    }
+                    if (j == s.length()-1)
+                        return s.charAt(i);
+                }
+            }
         }
-
-        while (s - min11 >= 0){
-            s -=min11;
-            duration++;
-        }
-
-        return duration;
+        return '_';
     }
 
 }

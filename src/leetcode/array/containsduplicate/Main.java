@@ -1,4 +1,4 @@
-package array.containsduplicate;
+package leetcode.array.containsduplicate;
 
 public class Main {
     public static void main(String[] args) {

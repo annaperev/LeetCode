@@ -1,4 +1,4 @@
-package array.removedublicates;
+package leetcode.array.removedublicates;
 
 class Solution {
     public int removeDuplicates(int[] nums) {
